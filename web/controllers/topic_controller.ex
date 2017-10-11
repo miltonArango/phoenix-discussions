@@ -25,4 +25,8 @@ defmodule Discuss.TopicController do
         end
     end
 
+    def edit(conn, %{"id" => topic_id}) do
+        
+    end
+
 end
