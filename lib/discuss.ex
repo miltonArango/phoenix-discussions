@@ -1,4 +1,8 @@
 defmodule Discuss do
+  @moduledoc """
+  Phoenix generated module for the <b>Discuss</b> application.
+  """
+
   use Application
 
   # See https://hexdocs.pm/elixir/Application.html

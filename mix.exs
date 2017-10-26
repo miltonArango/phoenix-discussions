@@ -42,6 +42,7 @@ defmodule Discuss.Mixfile do
       {:gettext, "~> 0.11"},
       {:cowboy, "~> 1.0"},
       {:ex_doc, "~> 0.16", only: :dev, runtime: false},
+      {:credo, "~> 0.8", only: [:dev, :test], runtime: false},
       {:ueberauth, "~> 0.4"},
       {:ueberauth_github, "~> 0.4"}
     ]
