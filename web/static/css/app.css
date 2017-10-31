@@ -11,3 +11,11 @@
     position: relative;
     margin-bottom: 25px;
 }
+
+.material-icons.danger {
+	color: #CC0000; 
+}
+
+.material-icons.edit {
+	color: #0099CC; 
+}

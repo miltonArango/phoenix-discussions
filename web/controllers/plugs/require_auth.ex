@@ -5,6 +5,8 @@ defmodule Discuss.Plugs.RequireAuth do
     import Plug.Conn
     import Phoenix.Controller
 
+    alias Discuss.Router.Helpers
+
     def init(_params) do
         # Blank initialization method
     end
